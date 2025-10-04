@@ -13,6 +13,9 @@ public class problem3_9506 {
             if (num == -1) break;
 
             int sum = 0;
+
+            // StringBuilder sb = new StringBuilder();
+            // StringBuilder를 사용하는 경우 두 자리 숫자 값이 따로 떨어져 List를 사용하였음.
             List<Integer> divisors = new ArrayList<>();
 
             for (int i = 1; i < num; i++) {
